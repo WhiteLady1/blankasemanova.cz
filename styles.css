@@ -1,12 +1,30 @@
+body{
+  background-color: rgb(241, 231, 215);
+  font-family: 'Montserrat', sans-serif;
+}
+
 .profil{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
   h1{
   color: brown;
 }
 img{
   width: 300px;
   border-radius: 50%;
+}
+
+.telo{
+  display: flex;
+  flex-direction: row;
+}
+
+.levy{
+  flex: 1 1 30%;
+}
+.hlavni{
+  flex: 1 1 50%;
 }
