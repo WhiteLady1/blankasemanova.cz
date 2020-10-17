@@ -1,0 +1,15 @@
+.profile__header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:#f2cf1de0;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.profile__header img{
+  width: 25%;
+  border-radius: 50%;
+}
