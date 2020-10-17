@@ -5,27 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
   <title>Blanka Semanová</title>
 </head>
 <body>
   <div class="profile">
-    <section class="profile__header">
+
+    <section class="container-fluid profile__header">
         <img src="profil.JPG" alt="Profilová fotografie">
         <h1>Ahoj</h1>
         <h3>Front-end developer</h3>
     </section>
-    <section class="projects">
-            <ol>
-              <li class="project"><a href="">První stránka</a></li>
-              <li class="project"><a href="">LDT Velká bukovina</a></li>
-              <li class="project"><a href="">BeeScale</a></li>
-              <li class="project"><a href="">Future</a></li>
-            </ol>
+
+    <section class="container projects">
+        <div class="row">
+              <div class="col-12 col-sm-12 col-md-4"><p class="project"><a href="">LDT Velká bukovina</a></p></div>
+              <div class="col-12 col-sm-12 col-md-4"><p class="project"><a href="">BeeScale</a></p></div>
+              <div class="col-12 col-sm-12 col-md-4"><p class="project"><a href="">Future</a></p></div>
+        </div>
     </section>
+
     <section class="informacion">
             <h2>O mě</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Nunc dapibus tortor vel mi dapibus sollicitudin. Aliquam erat volutpat. Cras elementum. Nunc tincidunt ante vitae massa. Aliquam erat volutpat. </p>
     </section>
+
     <section class="contact">
       <ol class="contact__list">
         <li>Blanka Semanová</li>
@@ -33,6 +37,7 @@
         <li>+420</li>
       </ol>
     </section>
+
     <footer class="profile_footer"></footer>    
   </div>
 </body>
