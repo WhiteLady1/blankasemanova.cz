@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap"
       rel="stylesheet"
@@ -43,19 +42,20 @@
         <img src="profil.JPG" />
       </div>
       <div class="introduction--ikons">
-        <a href=""><span class="iconify" data-inline="false" data-icon="entypo:email" style="font-size: 24px; color: #C43219;"></span></a>
-        <a href="https://github.com/WhiteLady1" target="_blank"><span class="iconify" data-inline="false" data-icon="ant-design:github-filled" style="font-size: 24px; color: #C43219;"></span></a>
-        <a href="https://www.linkedin.com/in/blanka-semanov%C3%A1-wl/" target="_blank"><span class="iconify" data-inline="false" data-icon="entypo-social:linkedin-with-circle" style="font-size: 24px; color: #C43219;"></span></a>
+        <a href="#kontakt"><span class="iconify" data-inline="false" data-icon="entypo:email" ></span></a>
+        <a href="https://github.com/WhiteLady1" target="_blank"><span class="iconify" data-inline="false" data-icon="ant-design:github-filled" ></span></a>
+        <a href="https://www.linkedin.com/in/blanka-semanov%C3%A1-wl/" target="_blank"><span class="iconify" data-inline="false" data-icon="entypo-social:linkedin-with-circle" ></span></a>
       </div>
     </section>
 
     <section id="my-work" class="my-work">
+      <h2>Mé dovednosti</h2>
       <div class="my-work--container all-container">
-        <h2>HTML & CSS</h2>
+        <h3>HTML & CSS</h3>
         <p>tady bude něco o tom co jsem schopná naprogramovat ve vstahu k front-endu</p>
       </div>
       <div class="my-work--container all-container">
-        <h2>JavaScript, React</h2>
+        <h3>JavaScript, React</h3>
         <p>tady bude něco o tom co jsem schopná naprogramovat ve vstahu k front-endu</p>
       </div>
     </section>
@@ -75,17 +75,15 @@
         <h2>BeeScale</h2>
         <p>o projektu BeeScale, jak to vzniklo pro koho atd.</p>
         <div class="my-project--gallery">
-          <img src="gallery/detail.jpg" alt="Detail jedné váhy">
-          <img src="gallery/detail_mobil.jpg" alt="Detail jedné váhy na mobilu">
-          <img src="gallery/prehled.jpg" alt="Přehled všech registovaných vah">
-          <img src="gallery/prihlaseni.jpg" alt="Přihlášení do aplikace">
+          <figure><img src="gallery/prihlaseni.jpg" alt="Přihlášení do aplikace"><figcaption>Přihlašovací obrazovka aplikace</figcaption></figure>
+          <figure><img src="gallery/detail.jpg" alt="Detail jedné váhy"><figcaption>Detail vybrané váhy s možností výběru zobrazované hodnoty a časového období v grafu</figcaption></figure>
         </div>
       </div>
     </section>
 
     <section id="why-hire-me" class="why-hire-me">
+      <h2>Proč přijmout zrovna mě?</h2>
       <div class="why-hire-me--container all-container">
-        <h2>Proč přijmout zrovna mě?</h2>
         <ul>
           <li><h3>Rychle se učím</h3> <p>prostě mi to jde</p></li>
           <li><h3>Zkušenosti s vedením projektů</h3> <p>z předešlé práce</p></li>
@@ -97,12 +95,14 @@
     <section id="contact" class="contact">
       <div class="contact--container all-container">
         <h3>blanka.seman@gmail.com</h3>
-       
-        <a href="https://github.com/WhiteLady1" target="_blank"><span class="iconify" data-inline="false" data-icon="ant-design:github-filled" style="font-size: 24px; color: #C43219;"></span></a>
-        <a href="https://www.linkedin.com/in/blanka-semanov%C3%A1-wl/" target="_blank"><span class="iconify" data-inline="false" data-icon="entypo-social:linkedin-with-circle" style="font-size: 24px; color:#C43219;"></span></a>
       </div>
     </section>
-    <section>
+    
+      <div class="ikons-bottom">
+        <a href="https://github.com/WhiteLady1" target="_blank"><span class="iconify" data-inline="false" data-icon="ant-design:github-filled" ></span></a>
+        <a href="https://www.linkedin.com/in/blanka-semanov%C3%A1-wl/" target="_blank"><span class="iconify" data-inline="false" data-icon="entypo-social:linkedin-with-circle" ></span></a>
+      </div>
+      <section class="nav-bottom">
       <ul>
         <li><a href="#introduction">Úvod</a></li>
         <li><a href="#my-work">Práce</a></li>
@@ -113,8 +113,10 @@
     </section>
 
     <footer>
+      <div>
       <p>2020</p>
       <p>Blanka Semanová</p>
+    </div>
     </footer>
 
     <script src="js/jquery-3.5.1.slim.min.js"></script>
