@@ -13,7 +13,26 @@
     <title>Blanka Semanová</title>
   </head>
   <body>
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0">
+      <div class="container">
+  
+        <a class="navbar-brand" href="#">Blanka Semanová</a> <!--sem příde logo značky nebo webu-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#introduction" aria-controls="introduction" aria-expanded="false" aria-label="Zapni/vypni navigaci">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div  class="collapse navbar-collapse" id="introduction"> <!--id je propojené s data-target výše a s aria-controls-->
+        <ul class="navbar-nav ml-auto hlavni-navigace h-100"> <!-- automatický margin-left aby ul odskočil úplně vlevo-->
+          <li class="nav-item"><a class="nav-link" href="#my-work">Práce</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about-me">O mě</a></li>
+          <li class="nav-item"><a class="nav-link" href="#why-hire-me">Projekty</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+        </ul>
+        </div>
+  
+      </div>
+      </nav>
+      <!--
     <header id="introduction">
       <h3>Blanka Semanová</h3>
       <ul>
@@ -24,7 +43,7 @@
         <li><a href="#contact">Kontakt</a></li>
       </ul>
     </header>
-
+-->
     <section class="introduction">
       <div class="introduction--container all-container">
         <div class="text">
@@ -98,6 +117,10 @@
       <p>2020</p>
       <p>Blanka Semanová</p>
     </footer>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
   </body>
 </html>
