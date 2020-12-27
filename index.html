@@ -1,66 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="bootstrap.min.css">
-  <title>Blanka Semanová</title>
-</head>
-<body>
-
-  <div class="profile">
-
-    <section class="profile__header">
-        <img src="profil.JPG" alt="Profilová fotografie">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Blanka Semanová</title>
+  </head>
+  <body>
+    <header>
+      <h3>Blanka Semanová</h3>
+      <ul>
+        <li><a id="" href="">Úvod</a></li>
+        <li><a id="" href="">Práce</a></li>
+        <li><a id="" href="">O mě</a></li>
+        <li><a id="" href="">Projekty</a></li>
+        <li><a id="" href="">Kontakt</a></li>
+      </ul>
+    </header>
+    <section class="introduction">
+      <div class="introduction--container">
         <h1>Ahoj</h1>
-        <h3>Front-end developer</h3>
-        <h2>O mě</h2>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Nunc dapibus tortor vel mi dapibus sollicitudin. Aliquam erat volutpat. Cras elementum. Nunc tincidunt ante vitae massa. Aliquam erat volutpat. </p>
-    </section>
-
-    <section class="informacion">
-      
-  </section>
-
-    <section class="container-fluid projects">
-        <div class="row">
-              <div class="col-12 col-sm-4 col-md-4">
-                <p class="project"><a href="">LDT Velká bukovina</a></p>
-                <p>Projekt spočíval ve vytvoření webu pro letní dětský tábor Velká Bukovina</p>
-                <button class="btn btn-primary">More</button>
-              </div>
-              <div class="col-12 col-sm-4 col-md-4">
-                <p class="project"><a href="">BeeScale</a></p>
-                <p>Vytvoření webové aplikace pro výhy na včelý úly</p>
-                <button class="btn btn-primary">More</button>
-              </div>
-              <div class="col-12 col-sm-4 col-md-4">
-                <p class="project"><a href="">Future</a></p>
-                <p>Všechno co přinesa budoucnost</p>
-                <button class="btn btn-primary">More</button>
-              </div>
-        </div>
-    </section>
-
-    
-
-    <section class="contact">
-      <ol class="contact__list">
-        <h2>Kontakty</h2>
-        <li>Blanka Semanová</li>
-        <li>gmail.com</li>
-        <li>+420</li>
-      </ol>
-    </section>
-
-    <footer class="container-fluid profile_footer">
-      <div class="row">
-        <p class="col-6 col-sm-4 col-md-4">2020</p>
-        <a class="col-6 col-sm-4 col-md-4" href="">WhiteLady</a>
+        <h2>jsem Blanka Semanová</h2>
+        <img src="profil.JPG" />
       </div>
-    </footer>    
-  </div>
-</body>
+    </section>
+    <section class="my-work">
+      <div class="my-work--container">
+        <h2>HTML & CSS</h2>
+        <p>tady bude něco o tom co jsem schopná naprogramovat ve vstahu k front-endu</p>
+      </div>
+      <div class="my-work--container">
+        <h2>JavaScript, React</h2>
+        <p>tady bude něco o tom co jsem schopná naprogramovat ve vstahu k front-endu</p>
+      </div>
+    </section>
+    <section class="about-me">
+      <div class="about-me--container">
+        <h2>Něco o mě</h2>
+        <p>Kdo jsem, co mám ráda, co jsem doposud dělala...možná i moje kéníčky. Hlavně jaká jsem</p>
+      </div>
+    </section>
+    <section class="my-project">
+      <div class="my-project--container">
+        <h2>BeeScale</h2>
+        <p>o projektu BeeScale, jak to vzniklo pro koho atd.</p>
+        <div class="my-project--gallery"></div>
+      </div>
+    </section>
+    <section class="why-hire-me">
+      <div class="why-hire-me--container">
+        <h2>Proč přijmout zrovna mě?</h2>
+        <ul>
+          <li><h3>Rychle se učím</h3> <p>prostě mi to jde</p></li>
+          <li><h3>Zkušenosti s vedením projektů</h3> <p>z předešlé práce</p></li>
+          <li><h3>Programování je moje vášeň</h3><p>prostě mě to baví</p></li>
+        </ul>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact--container">
+        <h3>blanka.seman@gmail.com</h3>
+        <h3>GitHub</h3>
+        <h3>LinkedIn</h3>
+      </div>
+    </section>
+    <footer>
+      <p>2020</p>
+      <p>Blanka Semanová</p>
+    </footer>
+  </body>
 </html>
