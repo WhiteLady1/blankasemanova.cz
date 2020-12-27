@@ -5,29 +5,12 @@ h1,h2, h3, h4{
   font-weight: 400;
 }
 
-
+.navbar-moje{
+  background-color: #C43219;
+}
 
 @media only screen and (min-width: 40em) {
   
-header{
-  display: flex;
-  justify-content: space-between;
-}
-header ul{
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-header li{
-  padding-right: 5px;
-
-}
-header a{
-  text-decoration: none;
-  padding-right: 20px;
-  color: black;
-}
-
 .all-container{
   display: flex;
   align-items: center;
