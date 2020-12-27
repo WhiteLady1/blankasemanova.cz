@@ -1,34 +1,63 @@
 body{
   font-family: 'Montserrat', sans-serif;
+  background-color: #F2F2F2;
 }
 h1,h2, h3, h4{
   font-weight: 400;
+}
+h3{
+  font-size: 20px;
 }
 
 .navbar-moje{
   background-color: #C43219;
 }
-
-@media only screen and (min-width: 40em) {
-  
 .all-container{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   padding: 20px;
   margin: 20px;
   border: 1px solid black;
 }
-
 .introduction{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border: 1px solid red;
-
+}
+.introduction--container{
+  flex-direction: column;
+  background-color: white;
+}
+.introduction--container .text{
+  text-align: center;
+}
+.introduction--container img{
+  width: 100%;
+  padding: 20px;
 }
 
+.introduction--ikons{
+  margin-bottom: 20px;
+}
+
+.my-work--container{
+  background-color: white;}
+
+.my-project--gallery img{
+  width: 100%;
+}
+
+.contact--container{
+  flex-direction: column;
+  background-color: white;
+}
+@media only screen and (min-width: 40em) {
+  
 .introduction--container{
     width: 80%;
 }
@@ -45,7 +74,7 @@ h1,h2, h3, h4{
 
 }
 .my-work--container{
-  flex-direction: column;
+ flex-direction: column;
   text-align: center;
   width: 30%;
 }
