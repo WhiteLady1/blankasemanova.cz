@@ -5,6 +5,10 @@ h1,h2, h3, h4{
   font-weight: 400;
 }
 
+
+
+@media only screen and (min-width: 40em) {
+  
 header{
   display: flex;
   justify-content: space-between;
@@ -24,6 +28,15 @@ header a{
   color: black;
 }
 
+.all-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
 .introduction{
   display: flex;
   flex-direction: column;
@@ -34,13 +47,7 @@ header a{
 }
 
 .introduction--container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  margin: 20px;
-  border: 1px solid black;
-  width: 80%;
+    width: 80%;
 }
 .introduction--container img{
   width: 30%;
@@ -55,15 +62,9 @@ header a{
 
 }
 .my-work--container{
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: center;
-  padding: 20px;
-  margin: 20px;
   width: 30%;
-  border: 1px solid black;
 }
 
 .about-me{
@@ -73,15 +74,11 @@ header a{
   border: 1px solid red;
 }
 .about-me--container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  margin: 20px;
   width: 70%;
-  border: 1px solid black;
 }
 .about-me--container h2{
  color: red;
  width: 60%;
+}
+
 }
