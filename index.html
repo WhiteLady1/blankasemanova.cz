@@ -12,24 +12,35 @@
     <title>Blanka Semanová</title>
   </head>
   <body>
-    <header>
+
+    <header id="introduction">
       <h3>Blanka Semanová</h3>
       <ul>
-        <li><a id="" href="">Úvod</a></li>
-        <li><a id="" href="">Práce</a></li>
-        <li><a id="" href="">O mě</a></li>
-        <li><a id="" href="">Projekty</a></li>
-        <li><a id="" href="">Kontakt</a></li>
+        <li><a href="#introduction">Úvod</a></li>
+        <li><a href="#my-work">Práce</a></li>
+        <li><a href="#about-me">O mě</a></li>
+        <li><a href="#why-hire-me">Projekty</a></li>
+        <li><a href="#contact">Kontakt</a></li>
       </ul>
     </header>
+
     <section class="introduction">
       <div class="introduction--container">
-        <h1>Ahoj</h1>
+        <div class="text">
+        <h1>Ahoj,</h1>
         <h2>jsem Blanka Semanová</h2>
+        <p>Front-end developer</p>
+      </div>
         <img src="profil.JPG" />
       </div>
+      <div class="introduction--ikons">
+        <a href=""><span class="iconify" data-inline="false" data-icon="entypo:email" style="font-size: 24px; color: red;"></span></a>
+        <a href="https://github.com/WhiteLady1" target="_blank"><span class="iconify" data-inline="false" data-icon="ant-design:github-filled" style="font-size: 24px; color: red;"></span></a>
+        <a href="https://www.linkedin.com/in/blanka-semanov%C3%A1-wl/" target="_blank"><span class="iconify" data-inline="false" data-icon="entypo-social:linkedin-with-circle" style="font-size: 24px; color: red;"></span></a>
+      </div>
     </section>
-    <section class="my-work">
+
+    <section id="my-work" class="my-work">
       <div class="my-work--container">
         <h2>HTML & CSS</h2>
         <p>tady bude něco o tom co jsem schopná naprogramovat ve vstahu k front-endu</p>
@@ -39,20 +50,28 @@
         <p>tady bude něco o tom co jsem schopná naprogramovat ve vstahu k front-endu</p>
       </div>
     </section>
-    <section class="about-me">
+
+    <section id="about-me" class="about-me">
       <div class="about-me--container">
         <h2>Něco o mě</h2>
         <p>Kdo jsem, co mám ráda, co jsem doposud dělala...možná i moje kéníčky. Hlavně jaká jsem</p>
       </div>
     </section>
+
     <section class="my-project">
       <div class="my-project--container">
         <h2>BeeScale</h2>
         <p>o projektu BeeScale, jak to vzniklo pro koho atd.</p>
-        <div class="my-project--gallery"></div>
+        <div class="my-project--gallery">
+          <img src="gallery/detail.jpg" alt="Detail jedné váhy">
+          <img src="gallery/detail_mobil.jpg" alt="Detail jedné váhy na mobilu">
+          <img src="gallery/prehled.jpg" alt="Přehled všech registovaných vah">
+          <img src="gallery/prihlaseni.jpg" alt="Přihlášení do aplikace">
+        </div>
       </div>
     </section>
-    <section class="why-hire-me">
+
+    <section id="why-hire-me" class="why-hire-me">
       <div class="why-hire-me--container">
         <h2>Proč přijmout zrovna mě?</h2>
         <ul>
@@ -62,7 +81,8 @@
         </ul>
       </div>
     </section>
-    <section class="contact">
+
+    <section id="contact" class="contact">
       <div class="contact--container">
         <h3>blanka.seman@gmail.com</h3>
         <span class="iconify" data-inline="false" data-icon="entypo:email" style="font-size: 24px; color: red;"></span>
@@ -72,6 +92,7 @@
         <span class="iconify" data-inline="false" data-icon="entypo-social:linkedin-with-circle" style="font-size: 24px; color: red;"></span>
       </div>
     </section>
+
     <footer>
       <p>2020</p>
       <p>Blanka Semanová</p>

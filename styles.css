@@ -1,3 +1,87 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
+h1,h2, h3, h4{
+  font-weight: 400;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+header ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+header li{
+  padding-right: 5px;
+
+}
+header a{
+  text-decoration: none;
+  padding-right: 20px;
+  color: black;
+}
+
+.introduction{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+
+}
+
+.introduction--container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  width: 80%;
+}
+.introduction--container img{
+  width: 30%;
+  padding: 20px;
+}
+
+.my-work{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+
+}
+.my-work--container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  width: 30%;
+  border: 1px solid black;
+}
+
+.about-me{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+.about-me--container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  width: 70%;
+  border: 1px solid black;
+}
+.about-me--container h2{
+ color: red;
+ width: 60%;
+}
