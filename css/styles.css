@@ -4,6 +4,7 @@ body{
 }
 h1, h2, h3, h4{
   font-weight: 400;
+  padding-bottom: 10px;
 }
 h1, h2{
   color:  #C43219;
@@ -55,32 +56,49 @@ h3{
   text-align: center;
 }
 .my-work--container{
-  background-color: white;}
+  background-color: white;
+  box-shadow: 0px 0px 41px -19px rgba(166,163,166,0.9);
 
-.my-project--gallery img{
-  padding-bottom: 20px;;
-  width: 100%;
 }
 
+.my-project--gallery{
+  padding-bottom: 15px;
+}
+.my-project--gallery img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+figure{
+  padding-bottom: 10px;
+}
+figcaption{
+  font-style: italic;
+  font-size: 15px;
+}
 .contact--container{
   flex-direction: column;
   background-color: white;
 }
 
-.about-me a{
+.button{
   background-color: #B73722;
   color: white;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   border-radius: 30px;
+  margin: 10px;
+}
+.about-me--ikons{
+  margin: 10px;
 }
 .why-hire-me h2{
   text-align: center;
 }
-.why-hire-me--container ul{
-  list-style: none;
-  padding: 10px;
+.why-hire-me--container{
   background-color: white;
+  box-shadow: 0px 0px 41px -19px rgba(166,163,166,0.9);
+
 }
 
 .contact--container h3{
@@ -104,6 +122,8 @@ h3{
 footer{
   background-color: #C43219;
   color: white;
+  box-shadow: 0px 0px 41px -19px rgba(166,163,166,0.9);
+
   display: flex;
   justify-content: center;
   }
