@@ -1,6 +1,5 @@
 body{
   font-family: 'Montserrat', sans-serif;
-  background-color: #F2F2F2;
 }
 h1, h2, h3, h4{
   font-weight: 400;
@@ -39,7 +38,7 @@ h3{
 }
 .introduction--container{
   flex-direction: column;
-  background-color: white;
+  border-bottom: #c4331986 solid 1px;
 }
 .introduction--container .text{
   text-align: center;
@@ -56,9 +55,15 @@ h3{
   text-align: center;
 }
 .my-work--container{
-  background-color: white;
   box-shadow: 0px 0px 41px -19px rgba(166,163,166,0.9);
 
+}
+.about-me--container{
+  border-bottom: #c4331986 solid 1px;
+
+}
+.about-me--ikons{
+  margin: 10px;
 }
 
 .my-project--gallery{
@@ -67,6 +72,8 @@ h3{
 .my-project--gallery img{
   width: 100%;
   border-radius: 10px;
+  box-shadow: 0px 0px 41px -19px rgba(166,163,166,0.9);
+
 }
 
 figure{
@@ -78,7 +85,8 @@ figcaption{
 }
 .contact--container{
   flex-direction: column;
-  background-color: white;
+  box-shadow: 0px 0px 41px -19px rgba(166,163,166,0.9);
+
 }
 
 .button{
@@ -87,9 +95,6 @@ figcaption{
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   border-radius: 30px;
-  margin: 10px;
-}
-.about-me--ikons{
   margin: 10px;
 }
 .why-hire-me h2{
@@ -135,40 +140,100 @@ footer div{
 footer p{
   margin: 0;
 }
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 760px) {
   
 .introduction--container{
-    width: 80%;
+  flex-direction: row;
+  width: 80%;
+  height: 300px;
+}
+.introduction--container .text{
+  text-align: left;
+
 }
 .introduction--container img{
-  width: 30%;
+  width: 40%;
   padding: 20px;
+}
+
+.introduction--ikons{
+  width: 80%;
+  text-align: right;
 }
 
 .my-work{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+}
 
+.my-work h2{
+width: 100%;
 }
 .my-work--container{
  flex-direction: column;
   text-align: center;
-  width: 30%;
+  width: 25%;
+  height: 610px;
 }
 
 .about-me{
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
 }
 .about-me--container{
-  width: 70%;
+  width: 80%;
 }
 .about-me--container h2{
- color: red;
  width: 60%;
 }
+.my-project{
+  display: flex;
+  justify-content: center;
+}
+.my-project--container{
+  width: 80%;
+}
+.my-project--gallery{
+  padding-top: 20px;
+  width: 90%;
+}
+.why-hire-me{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  
+}
+.why-hire-me--all{
+  width: 80%;
+  padding-bottom: 15px;
+}
+.why-hire-me--container{
+  margin-bottom: 30px;
+}
+.contact{
+  display: flex;
+  justify-content: center;
 
+}
+.contact--container{
+  width: 80%;
+}
+.contact--container p{
+  font-size: 12px;
+}
+.contact--container h3{
+  padding: 0;
+  font-size: 30px;
+}
+.ikons-bottom{
+  margin-top: 0;
+ padding-bottom: 20px;
+}
+.nav-bottom{
+  padding: 20px;
+}
 }
