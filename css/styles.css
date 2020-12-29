@@ -103,9 +103,7 @@ figcaption{
 .why-hire-me--container{
   background-color: white;
   box-shadow: 0px 0px 41px -19px rgba(166,163,166,0.9);
-
 }
-
 .contact--container h3{
   margin: 0;
 }
@@ -220,7 +218,7 @@ width: 100%;
 
 }
 .contact--container{
-  width: 80%;
+  width: 75%;
 }
 .contact--container p{
   font-size: 12px;
@@ -228,6 +226,10 @@ width: 100%;
 .contact--container h3{
   padding: 0;
   font-size: 30px;
+}
+.contact--container a{
+  text-decoration: none;
+  color: #C43219;
 }
 .ikons-bottom{
   margin-top: 0;
