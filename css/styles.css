@@ -20,6 +20,14 @@ a:hover{
   text-decoration: none;
 }
 
+.arrow{
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
 .iconify{
   color: #C43219;
   font-size: 40px;
@@ -172,6 +180,10 @@ footer p{
 }
 @media only screen and (min-width: 760px) {
   
+  .arrow{
+    bottom: 20px;
+    right: 20px;
+  }
 .introduction--container{
   flex-direction: row;
   width: 80%;
@@ -282,6 +294,10 @@ width: 100%;
 }
 }
 @media only screen and (min-width: 1028px) {
+  .arrow{
+    bottom: 50px;
+    right: 150px;
+  }
   .introduction--container{
     width: 70%;
     justify-content: space-evenly;
