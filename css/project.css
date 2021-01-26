@@ -1,3 +1,9 @@
+.site-project{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 94vh;
+}
 .all-project {
 text-align: center;
 }
