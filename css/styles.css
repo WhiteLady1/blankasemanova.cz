@@ -233,8 +233,7 @@ width: 100%;
 .my-work--container{
  flex-direction: column;
   text-align: center;
-  width: 25%;
-  height: 610px;
+  width: 80%;
 }
 
 .about-me{
@@ -316,11 +315,11 @@ width: 100%;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 70%;
+    width: 80%;
     margin: auto;
   }
   .my-work--container{
-     height: 370px;
+     width: 25%;
    }
    .about-me{
     display: flex;
@@ -328,23 +327,15 @@ width: 100%;
     justify-content: center;
   }
   .about-me--container{
-    flex-direction: row;
-    justify-content: space-between;
     width: 60%;
   }
-  .about-me--container h2{
-   width: 25%;
-   text-align: left;
-  }
-  .about-me--right{
-    width: 75%;
-    padding: 10px;
-  }
   .about-me--links{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    padding-top: 15px;
   }
+  .about-me--ikons{
+    padding-top: 10px;
+  }
+
   .my-project{
     display: flex;
     justify-content: center;
@@ -389,7 +380,6 @@ width: 100%;
     grid-row:7/8;
   }
   .why-hire-me--all{
-    display: flex;
     width: 70%;
   }
   .contact--container{
@@ -400,4 +390,31 @@ width: 100%;
     width: 60%;
     margin: auto;
   }
+}
+@media only screen and (min-width: 1300px) {
+  .about-me--container{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+  }
+  .about-me--container h2{
+   width: 25%;
+   text-align: left;
+  }
+  .about-me--right{
+    width: 75%;
+    padding: 10px;
+  }
+  .about-me--links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .why-hire-me--all{
+    display: flex;
+  }
+  .why-hire-me--container{
+    width: 30%;
+  }
+
 }
